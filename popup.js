@@ -1,5 +1,5 @@
 function showPopup() {
-    let popup = document.getElementById('popupMessage');
+    var popup = document.getElementById('popupMessage');
     popup.classList.toggle('active');
     setTimeout(function () {
         popup.classList.toggle('active');
